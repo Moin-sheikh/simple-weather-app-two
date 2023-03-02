@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/random/?city,night');
+    font-size: 120%;
+}
+
+.main-container{
+    background:#000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0.5em;
+    border: none;
+    height: 57px;
+    width: 100px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    border-radius: 18px;
+    transition: 0.2s ease-in-out;
+}
+ 
+button.i{
+    color: white;
+}
+
+button:hover{
+    background: #7c7c7c6b;
+}
+
+input.search-bar{
+    border: none;
+    height: 36px;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: 60%;
+}
+
+h1.temprature{
+    margin: 0;
+}
+
